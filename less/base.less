@@ -1,0 +1,44 @@
+// 样式初试化代码
+// 主题色
+@main-color : rgb(237, 91, 0);
+// 背景颜色
+@bg-color: rgb(242, 242, 242);
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+li {
+    list-style: none;
+
+}
+
+a {
+    color: rgb(116, 116, 116);
+    text-decoration: none;
+    // 在移动端特别注意清除a的按压样式
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+input {
+    outline: none;
+    border: none;
+    // 清除移动端默认样式
+    -webkit-appearance: none;
+}
+
+img {
+    border: none;
+    vertical-align: middle;
+}
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: block;
+}
+
+.br{
+    border-right: 2px solid #fff;
+}
+

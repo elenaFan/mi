@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>小米商城</title>
+    <!-- 引入字体图标 -->
+    <link rel="stylesheet" type="text/css" href="./font/iconfont.css">
+    <!-- 第一步引入样式less -->
+    <link rel="stylesheet/less" href="./less/index.less">
+    <!-- 第二步，引入less.js -->
+    <script src="./lib/less/less.js"></script>
+</head>
+
+<body>
+    <div id="layout">
+        <!-- 头部区域 -->
+        <header id="header">
+            <!-- 头部区域上 -->
+            <section id="header-top">
+                <a class="logo" href="#">
+                    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEwAAAAyCAYAAAD2vz2aAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyhpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNi1jMTM4IDc5LjE1OTgyNCwgMjAxNi8wOS8xNC0wMTowOTowMSAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENDIDIwMTcgKE1hY2ludG9zaCkiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6MjQ2OUE2MkU0RTQ4MTFFNzgxOTZBRDJFQjk4Qjk0NjQiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6MjQ2OUE2MkY0RTQ4MTFFNzgxOTZBRDJFQjk4Qjk0NjQiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDpCOUQ0QkM2RjREQ0MxMUU3ODE5NkFEMkVCOThCOTQ2NCIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDpCOUQ0QkM3MDREQ0MxMUU3ODE5NkFEMkVCOThCOTQ2NCIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PiL8gcIAAAF1SURBVHja7Ju/LwRRFEbf+FVsQ0dBdJKNSksUSqVCr6AhKxGVwn+gVUpQEI1So5XoZUOhEbKMDiESIeOTzPbvzpoxz5wvOd3duzsn++7cSXajZMU9OOeGXPmTiHtxIU7FoYh/oe+ZmPKsjSMJS1yY+RS7YrNDcTdi1Le4y4WbHrEorsRcUW8asrB2BsSxWEeYLVtiCWG2bIsJhPmnV+zkeV3/TZhLv2HzCLNlFWG2TIqRvHYZa97FR84XXEvnUSeZEft/LexZDIvXnIVFop6uCQ3RnaHHeBmO5FMBstrPjZdiTUyLlww9Bqs6w87FcobX9Vd56B+IZoZjXVlhP0f0qAwfJKS1ookw+w0HYaEFYQVs+j4ZE7Oed6o3sVfA00OphW2IBUN9S5xU+Uhad6A+ZhhDnyAMYQhDGMIQRhCGMIQhDGEEYQhDGMIQhjCCMIQhDGEIIwhDWFHCLP81vPOsezT0/BK3nj0tP1i59qxrGXrG3wIMAK5yNsqRAjAyAAAAAElFTkSuQmCC"
+                        alt="">
+                </a>
+                <form class="search-form" action="">
+                    <i class="iconfont icon-search"></i>
+                    <input type="search" placeholder="搜索商品名称">
+                </form>
+                <a class="userInfo" href="#">
+                    <i class="iconfont icon-icon1"></i>
+                </a>
+
+            </section>
+            <!-- 头部推荐区域 -->
+            <section id="recommend">
+                <ul>
+                    <li class="active">
+                        <a href="#">推荐</a>
+                    </li>
+                    <li>
+                        <a href="#">手机</a>
+                    </li>
+                    <li>
+                        <a href="#">电视</a>
+                    </li>
+                    <li>
+                        <a href="#">电脑</a>
+                    </li>
+                    <li>
+                        <a href="#">智能</a>
+                    </li>
+                    <li>
+                        <a href="#">笔记本</a>
+                    </li>
+                    <li>
+                        <a href="#">小玩意</a>
+                    </li>
+                    <li>
+                        <a href="#">科科科</a>
+                    </li>
+                    <li>
+                        <a href="#">新款游戏本</a>
+                    </li>
+                </ul>
+            </section>
+        </header>
+
+        <!-- 轮播图区域 -->
+        <section id="slide">
+            <img src="//i8.mifile.cn/v1/a1/25eb665a-7638-4858-9bbf-745fa28cb0b0!720x360.webp" alt="">
+        </section>
+        <!-- 导航区域 -->
+        <nav id="nav">
+            <ul>
+                <li>
+                    <a href="#">
+                        <img src="//i8.mifile.cn/v1/a1/6d64ef02-bb5c-da49-45cb-7d6861885b29!144x152.webp" alt="">
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="//i8.mifile.cn/v1/a1/d29e748c-0177-5b4c-d2ab-401070713bac!144x152.webp" alt="">
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="//cdn.cnbj0.fds.api.mi-img.com/b2c-mimall-media/9173298cc0297ce1803c43485e525358.jpg?thumb=1&w=144&h=152"
+                            alt="">
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="//i8.mifile.cn/v1/a1/e560f98a-48bb-25a1-daa2-72bff8cc7c69!144x152.webp" alt="">
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="//cdn.cnbj0.fds.api.mi-img.com/b2c-mimall-media/3df8f589521ea019b3b2d6231af17926.png?thumb=1&w=144&h=152"
+                            alt="">
+                    </a>
+                </li>
+            </ul>
+        </nav>
+
+        <!-- 主体内容区域 -->
+        <main id="main">
+            <!-- 产品区域 -->
+            <section id="products1">
+                <div class="left-content">
+                    <a href="#">
+                        <img src="//cdn.cnbj0.fds.api.mi-img.com/b2c-mimall-media/2dccfcd27ec8f1c4744b29d1f771e6e6.jpeg?thumb=1&w=358&h=508" alt="">
+                    </a>
+                </div>
+                <div class="right-content">
+                    <a href="#">
+                        <img src="//i8.mifile.cn/v1/a1/6634c877-77ad-3a84-80f7-d150754b4b54!358x252.webp" alt="">
+                    </a>
+                    <a href="#">
+                        <img src="//i8.mifile.cn/v1/a1/f555d958-35a6-c19a-eedd-ec7203c0259f!358x252.webp" alt="">
+                    </a>
+                </div>
+            
+            </section>
+            <section id="products2">
+                <a href="#">
+                    <img src="//i8.mifile.cn/v1/a1/3ec92a36-f85a-476b-cd61-dbd35d6af2ca!720x440.webp" alt="">
+                </a>
+            </section>
+            <!-- 超值单品 -->
+            <section class="hot-product">
+                <div class="hots br">
+                    <a href="#">
+                        <img src="//i8.mifile.cn/v1/a1/0518c80c-a1a5-af45-0898-a4e07b3d5a9f!360x360.webp" alt="">
+                        <p>小米AI音响</p>
+                        <p>听音乐、语音遥控家电的人工智能音箱</p>
+                        <span>￥299</span>
+                    </a>
+                </div>
+                <div class="hots">
+                    <a href="#">
+                        <img src="//i8.mifile.cn/v1/a1/1fd7f261-1d68-784e-a1f7-17384d00dc1d!360x360.webp" alt="">
+                        <p>小米米家滑板车</p>
+                        <p>便携折叠，自由穿行</p>
+                        <span>￥1999</span>
+                    </a>
+                </div>
+            </section>
+            <section class="hot-product">
+                    <div class="hots br">
+                        <a href="#">
+                            <img src="//cdn.cnbj0.fds.api.mi-img.com/b2c-mimall-media/67b72f719a7832c34d095f0fe57014b8.png?thumb=1&w=360&h=360" alt="">
+                            <p>小米AI音响</p>
+                            <p>听音乐、语音遥控家电的人工智能音箱</p>
+                            <span>￥299</span>
+                        </a>
+                    </div>
+                    <div class="hots">
+                        <a href="#">
+                            <img src="//cdn.cnbj0.fds.api.mi-img.com/b2c-mimall-media/3a6c559209103e17ef6acaf583929a28.jpg?thumb=1&w=360&h=360" alt="">
+                            <p>小米米家滑板车</p>
+                            <p>便携折叠，自由穿行</p>
+                            <span>￥1999</span>
+                        </a>
+                    </div>
+            </section>
+        </main>
+
+        <footer id="footer">
+                <ul>
+                    <li><a href="#"><i class="iconfont icon-home"></i></a></li>
+                    <li><a href="#"><i class="iconfont icon-category"></i></a></li>
+                    <li><a href="#"><i class="iconfont icon-cart-copy"></i></a></li>
+                    <li><a href="#"><i class="iconfont icon-icon1"></i></a></li>
+                </ul> 
+        </footer>
+    </div>
+
+
+    <!-- 引入自己的js文件 -->
+    <script src="./js/index.js"></script>
+</body>
+
+</html>
